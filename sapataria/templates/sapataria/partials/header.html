@@ -1,0 +1,32 @@
+{% load static %}
+
+<header>
+    <div class="container container-header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <h1>
+                    <a class="navbar-brand" href="#">
+                        <img src="{% static "sapataria/images/logo_2.png" %}" alt="">
+                        Sapataria.com
+                    </a>
+                </h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#container-header-navbar" aria-controls="container-header-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="container-header-navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Femininos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Infantis</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
